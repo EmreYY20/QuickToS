@@ -6,7 +6,7 @@ document.getElementById('summarize').addEventListener('click', async () => {
     const response = await fetch('https://api-inference.huggingface.co/models/EE21/BART-ToSSimplify', {
       method: 'POST',
       headers: {
-        'Authorization': 'Bearer YOUR_HUGGINGFACE_API_KEY',
+        'Authorization': 'Bearer HUGGINFACEKEY',
         'Content-Type': 'application/json'
       },
       body: JSON.stringify({ inputs: inputText })

@@ -1,14 +1,18 @@
 {
     "manifest_version": 3,
-    "name": "BART-ToSSimplify Extension",
+    "name": "QuickToS",
     "version": "1.0",
-    "description": "Generates simplified summaries of Terms of Service agreements.",
+    "description": "Generates summaries of Terms of Service agreements.",
     "permissions": ["activeTab", "storage"],
     "action": {
-      "default_popup": "popup.html"
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
     },
     "background": {
       "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icon.png"
     }
   }
   

@@ -1,27 +1,70 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>BART-ToSSimplify</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QuickToS</title>
   <style>
     body {
-      width: 300px;
-      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 10px;
+      width: 500px;
+      font: "Circular";
+      background-color: #f9f9f9;
     }
     textarea {
       width: 100%;
-      height: 100px;
-      margin-bottom: 10px;
+      max-width: 500px;
+      height: 150px;
+      padding: 0px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      margin-bottom: 15px;
+      font-size: 14px;
+      resize: none; 
     }
     button {
       width: 100%;
+      max-width: 500px;
       padding: 10px;
-      margin-top: 10px;
-      font-size: 16px;
+      background-color: #007BFF;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 18px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    h1 {
+      color: #007BFF;
+      margin: 0;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+    h2 {
+      color: #333;
+      margin-top: 20px;
+    }
+    #summary {
+      width: 100%;
+      max-width: 450px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      background-color: #fff;
+      font-size: 14px;
+      min-height: 200px;
     }
   </style>
 </head>
 <body>
-  <h1>TOS Simplifier</h1>
+  <h1>QuickToS</h1>
   <textarea id="input-text" placeholder="Paste the Terms of Service here..."></textarea>
   <button id="summarize">Summarize</button>
   <h2>Summary</h2>
