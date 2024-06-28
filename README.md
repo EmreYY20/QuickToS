@@ -12,6 +12,14 @@
 The project aims to address the widespread issue of complex and lengthy Terms-of-Service (ToS) agreements that users often encounter when using digital platforms or services. The primary focus is on leveraging text summarization to simplify and enhance the comprehensibility of these agreements.
 
 ### Usage
+There are two options for the usage: as Chrome extension or as web application
+
+#### Chrome extension
+First go to chrome://extensions/ and activate developer settings in the top right. Select load unzipped extension the select the folder chrome-extension.
+The image previews the chrome extension
+![demo_extension](https://github.com/EmreYY20/QuickToS/assets/120115560/51f1047b-ca96-45b9-b765-ba0426c7d0d2)
+
+#### Web Application
 A streamlit web app is hosted by Hugging Face Spaces, it will automatically run the web app, so you dont have to execute the code on your machine.
 
 <div align = center>
