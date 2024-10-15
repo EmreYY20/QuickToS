@@ -5,13 +5,8 @@
 
 
 ## Table of Contents
-- [Teammitglieder](#teammitglieder)
 - [About](#about)
 - [Usage](#usage)
-
-## Teammitglieder
-- Emre Iyigün
-- Ali Moutyrek
 
 ## About
 The project aims to address the widespread issue of complex and lengthy Terms-of-Service (ToS) agreements that users often encounter when using digital platforms or services. The primary focus is on leveraging text summarization to simplify and enhance the comprehensibility of these agreements.
